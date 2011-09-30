@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0C8BE881435B3FE00623B8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE871435B3FE00623B8C /* UIKit.framework */; };
+		B0C8BE8A1435B3FE00623B8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE891435B3FE00623B8C /* Foundation.framework */; };
+		B0C8BE8C1435B3FE00623B8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE8B1435B3FE00623B8C /* CoreGraphics.framework */; };
+		B0C8BE921435B3FE00623B8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0C8BE901435B3FE00623B8C /* InfoPlist.strings */; };
+		B0C8BE941435B3FE00623B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8BE931435B3FE00623B8C /* main.m */; };
+		B0C8BE981435B3FE00623B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8BE971435B3FE00623B8C /* AppDelegate.m */; };
+		B0C8BE9B1435B3FE00623B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8BE9A1435B3FE00623B8C /* ViewController.m */; };
+		B0C8BE9E1435B3FE00623B8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C8BE9C1435B3FE00623B8C /* ViewController.xib */; };
+		B0C8BEA81435B45200623B8C /* DeviceDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8BEA71435B45200623B8C /* DeviceDetection.m */; };
+		B0C8BEAA1435B5A400623B8C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BEA91435B5A400623B8C /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0C8BE831435B3FE00623B8C /* peaceios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peaceios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C8BE871435B3FE00623B8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0C8BE891435B3FE00623B8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0C8BE8B1435B3FE00623B8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0C8BE8F1435B3FE00623B8C /* peaceios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "peaceios-Info.plist"; sourceTree = "<group>"; };
+		B0C8BE911435B3FE00623B8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0C8BE931435B3FE00623B8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0C8BE951435B3FE00623B8C /* peaceios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "peaceios-Prefix.pch"; sourceTree = "<group>"; };
+		B0C8BE961435B3FE00623B8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0C8BE971435B3FE00623B8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0C8BE991435B3FE00623B8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0C8BE9A1435B3FE00623B8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0C8BE9D1435B3FE00623B8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B0C8BEA61435B45200623B8C /* DeviceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetection.h; sourceTree = "<group>"; };
+		B0C8BEA71435B45200623B8C /* DeviceDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetection.m; sourceTree = "<group>"; };
+		B0C8BEA91435B5A400623B8C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0C8BE801435B3FE00623B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8BEAA1435B5A400623B8C /* MessageUI.framework in Frameworks */,
+				B0C8BE881435B3FE00623B8C /* UIKit.framework in Frameworks */,
+				B0C8BE8A1435B3FE00623B8C /* Foundation.framework in Frameworks */,
+				B0C8BE8C1435B3FE00623B8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0C8BE781435B3FE00623B8C = {
+			isa = PBXGroup;
+			children = (
+				B0C8BE8D1435B3FE00623B8C /* peaceios */,
+				B0C8BE861435B3FE00623B8C /* Frameworks */,
+				B0C8BE841435B3FE00623B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0C8BE841435B3FE00623B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8BE831435B3FE00623B8C /* peaceios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0C8BE861435B3FE00623B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8BEA91435B5A400623B8C /* MessageUI.framework */,
+				B0C8BE871435B3FE00623B8C /* UIKit.framework */,
+				B0C8BE891435B3FE00623B8C /* Foundation.framework */,
+				B0C8BE8B1435B3FE00623B8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0C8BE8D1435B3FE00623B8C /* peaceios */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8BEA41435B45200623B8C /* peaceios */,
+				B0C8BE961435B3FE00623B8C /* AppDelegate.h */,
+				B0C8BE971435B3FE00623B8C /* AppDelegate.m */,
+				B0C8BE991435B3FE00623B8C /* ViewController.h */,
+				B0C8BE9A1435B3FE00623B8C /* ViewController.m */,
+				B0C8BE9C1435B3FE00623B8C /* ViewController.xib */,
+				B0C8BE8E1435B3FE00623B8C /* Supporting Files */,
+			);
+			path = peaceios;
+			sourceTree = "<group>";
+		};
+		B0C8BE8E1435B3FE00623B8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8BE8F1435B3FE00623B8C /* peaceios-Info.plist */,
+				B0C8BE901435B3FE00623B8C /* InfoPlist.strings */,
+				B0C8BE931435B3FE00623B8C /* main.m */,
+				B0C8BE951435B3FE00623B8C /* peaceios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0C8BEA41435B45200623B8C /* peaceios */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8BEA51435B45200623B8C /* util */,
+			);
+			path = peaceios;
+			sourceTree = "<group>";
+		};
+		B0C8BEA51435B45200623B8C /* util */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8BEA61435B45200623B8C /* DeviceDetection.h */,
+				B0C8BEA71435B45200623B8C /* DeviceDetection.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0C8BE821435B3FE00623B8C /* peaceios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C8BEA11435B3FE00623B8C /* Build configuration list for PBXNativeTarget "peaceios" */;
+			buildPhases = (
+				B0C8BE7F1435B3FE00623B8C /* Sources */,
+				B0C8BE801435B3FE00623B8C /* Frameworks */,
+				B0C8BE811435B3FE00623B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = peaceios;
+			productName = peaceios;
+			productReference = B0C8BE831435B3FE00623B8C /* peaceios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0C8BE7A1435B3FE00623B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "瓦力";
+			};
+			buildConfigurationList = B0C8BE7D1435B3FE00623B8C /* Build configuration list for PBXProject "peaceios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0C8BE781435B3FE00623B8C;
+			productRefGroup = B0C8BE841435B3FE00623B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0C8BE821435B3FE00623B8C /* peaceios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0C8BE811435B3FE00623B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8BE921435B3FE00623B8C /* InfoPlist.strings in Resources */,
+				B0C8BE9E1435B3FE00623B8C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0C8BE7F1435B3FE00623B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C8BE941435B3FE00623B8C /* main.m in Sources */,
+				B0C8BE981435B3FE00623B8C /* AppDelegate.m in Sources */,
+				B0C8BE9B1435B3FE00623B8C /* ViewController.m in Sources */,
+				B0C8BEA81435B45200623B8C /* DeviceDetection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0C8BE901435B3FE00623B8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C8BE911435B3FE00623B8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0C8BE9C1435B3FE00623B8C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C8BE9D1435B3FE00623B8C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0C8BE9F1435B3FE00623B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0C8BEA01435B3FE00623B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C8BEA21435B3FE00623B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "peaceios/peaceios-Prefix.pch";
+				INFOPLIST_FILE = "peaceios/peaceios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0C8BEA31435B3FE00623B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "peaceios/peaceios-Prefix.pch";
+				INFOPLIST_FILE = "peaceios/peaceios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0C8BE7D1435B3FE00623B8C /* Build configuration list for PBXProject "peaceios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C8BE9F1435B3FE00623B8C /* Debug */,
+				B0C8BEA01435B3FE00623B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C8BEA11435B3FE00623B8C /* Build configuration list for PBXNativeTarget "peaceios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C8BEA21435B3FE00623B8C /* Debug */,
+				B0C8BEA31435B3FE00623B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0C8BE7A1435B3FE00623B8C /* Project object */;
+}
