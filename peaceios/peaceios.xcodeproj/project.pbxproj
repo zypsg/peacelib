@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B059FF7D1441A4110074B61F /* NSStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FF7C1441A4110074B61F /* NSStringUtil.m */; };
 		B0C8BE881435B3FE00623B8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE871435B3FE00623B8C /* UIKit.framework */; };
 		B0C8BE8A1435B3FE00623B8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE891435B3FE00623B8C /* Foundation.framework */; };
 		B0C8BE8C1435B3FE00623B8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE8B1435B3FE00623B8C /* CoreGraphics.framework */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B059FF7B1441A4110074B61F /* NSStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringUtil.h; sourceTree = "<group>"; };
+		B059FF7C1441A4110074B61F /* NSStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringUtil.m; sourceTree = "<group>"; };
 		B0C8BE831435B3FE00623B8C /* peaceios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peaceios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C8BE871435B3FE00623B8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B0C8BE891435B3FE00623B8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 			children = (
 				B0C8BEA61435B45200623B8C /* DeviceDetection.h */,
 				B0C8BEA71435B45200623B8C /* DeviceDetection.m */,
+				B059FF7B1441A4110074B61F /* NSStringUtil.h */,
+				B059FF7C1441A4110074B61F /* NSStringUtil.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				B0C8BE981435B3FE00623B8C /* AppDelegate.m in Sources */,
 				B0C8BE9B1435B3FE00623B8C /* ViewController.m in Sources */,
 				B0C8BEA81435B45200623B8C /* DeviceDetection.m in Sources */,
+				B059FF7D1441A4110074B61F /* NSStringUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +307,7 @@
 				B0C8BEA31435B3FE00623B8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

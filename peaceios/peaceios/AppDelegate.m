@@ -10,6 +10,7 @@
 
 #import "ViewController.h"
 #import "DeviceDetection.h"
+#import "NSStringUtil.h"
 
 @implementation AppDelegate
 
@@ -26,6 +27,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [DeviceDetection isIphone4];
+    
+    NSString* testStr1 = @" a b c ";
+    NSString* ret = [NSStringUtil  removeWhieSpace:testStr1];
+    NSLog(@"testStr1:%@",testStr1);
+    NSLog(@"testStr1:%@",ret);
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
