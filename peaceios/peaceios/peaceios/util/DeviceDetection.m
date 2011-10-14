@@ -188,4 +188,32 @@
     return [[model uppercaseString] isEqualToString:@"IPOD TOUCH"];
 }
 
+//是否存在microphone
++ (BOOL) hasMicrophone
+{
+    NSError *error;
+    AVAudioSession *audioSession = [AVAudioSession sharedInstance]; 
+    if (![audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error:&error]) 
+    { 
+        return NO;
+    } // mix audio with others, such as iPod etc. 
+    UInt32 doSetProperty = 1; 
+    AudioSessionSetProperty (kAudioSessionProperty_OtherMixableAudioShouldDuck, sizeof(doSetProperty), &doSetProperty); 
+    if (![audioSession setActive:YES error:&error]) 
+    {
+        return NO;
+    } 
+    return audioSession.inputIsAvailable;
+}
+
++ (BOOL) hasFlash
+{
+    BOOL ret = NO;
+    if(NSClassFromString(@"AVCaptureDevice") )
+    {
+        ret = [[[NSClassFromString(@"AVCaptureDevice") alloc] init] hasFlash];
+    }
+    return ret;
+}
+
 @end

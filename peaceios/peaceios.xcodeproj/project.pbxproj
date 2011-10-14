@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B014F8FB14483AC800A3D59E /* KVPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */; };
+		B014F8FC14483AC800A3D59E /* KVPasscodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */; };
 		B059FF7D1441A4110074B61F /* NSStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FF7C1441A4110074B61F /* NSStringUtil.m */; };
+		B059FFB31441BC6A0074B61F /* NSLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FFB21441BC6A0074B61F /* NSLogUtil.m */; };
+		B06D5BFA1447DC57007951CA /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B06D5BF91447DC57007951CA /* ImageUtil.m */; };
+		B0C7396614483D1E0033B923 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C7396514483D1E0033B923 /* QuartzCore.framework */; };
+		B0C7397314483DF80033B923 /* AudioDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7397214483DF80033B923 /* AudioDetect.m */; };
 		B0C8BE881435B3FE00623B8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE871435B3FE00623B8C /* UIKit.framework */; };
 		B0C8BE8A1435B3FE00623B8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE891435B3FE00623B8C /* Foundation.framework */; };
 		B0C8BE8C1435B3FE00623B8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE8B1435B3FE00623B8C /* CoreGraphics.framework */; };
@@ -18,11 +24,23 @@
 		B0C8BE9E1435B3FE00623B8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C8BE9C1435B3FE00623B8C /* ViewController.xib */; };
 		B0C8BEA81435B45200623B8C /* DeviceDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8BEA71435B45200623B8C /* DeviceDetection.m */; };
 		B0C8BEAA1435B5A400623B8C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BEA91435B5A400623B8C /* MessageUI.framework */; };
+		B0FAB5B71448165C00E6FD35 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FAB5B61448165C00E6FD35 /* AudioToolbox.framework */; };
+		B0FAB5BA1448168C00E6FD35 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FAB5B91448168C00E6FD35 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B014F8F814483AC800A3D59E /* KVPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVPasscodeViewController.h; sourceTree = "<group>"; };
+		B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVPasscodeViewController.m; sourceTree = "<group>"; };
+		B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVPasscodeViewController.xib; sourceTree = "<group>"; };
 		B059FF7B1441A4110074B61F /* NSStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringUtil.h; sourceTree = "<group>"; };
 		B059FF7C1441A4110074B61F /* NSStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringUtil.m; sourceTree = "<group>"; };
+		B059FFB11441BC6A0074B61F /* NSLogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogUtil.h; sourceTree = "<group>"; };
+		B059FFB21441BC6A0074B61F /* NSLogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogUtil.m; sourceTree = "<group>"; };
+		B06D5BF81447DC57007951CA /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		B06D5BF91447DC57007951CA /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		B0C7396514483D1E0033B923 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B0C7397114483DF80033B923 /* AudioDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDetect.h; sourceTree = "<group>"; };
+		B0C7397214483DF80033B923 /* AudioDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioDetect.m; sourceTree = "<group>"; };
 		B0C8BE831435B3FE00623B8C /* peaceios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peaceios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C8BE871435B3FE00623B8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B0C8BE891435B3FE00623B8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +57,8 @@
 		B0C8BEA61435B45200623B8C /* DeviceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetection.h; sourceTree = "<group>"; };
 		B0C8BEA71435B45200623B8C /* DeviceDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetection.m; sourceTree = "<group>"; };
 		B0C8BEA91435B5A400623B8C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B0FAB5B61448165C00E6FD35 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B0FAB5B91448168C00E6FD35 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C7396614483D1E0033B923 /* QuartzCore.framework in Frameworks */,
+				B0FAB5BA1448168C00E6FD35 /* AVFoundation.framework in Frameworks */,
+				B0FAB5B71448165C00E6FD35 /* AudioToolbox.framework in Frameworks */,
 				B0C8BEAA1435B5A400623B8C /* MessageUI.framework in Frameworks */,
 				B0C8BE881435B3FE00623B8C /* UIKit.framework in Frameworks */,
 				B0C8BE8A1435B3FE00623B8C /* Foundation.framework in Frameworks */,
@@ -56,6 +79,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B014F8F714483AC800A3D59E /* commonviewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				B014F8F814483AC800A3D59E /* KVPasscodeViewController.h */,
+				B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */,
+				B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */,
+			);
+			path = commonviewcontrollers;
+			sourceTree = "<group>";
+		};
+		B0C7397014483DF80033B923 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				B0C7397114483DF80033B923 /* AudioDetect.h */,
+				B0C7397214483DF80033B923 /* AudioDetect.m */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
 		B0C8BE781435B3FE00623B8C = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +118,9 @@
 		B0C8BE861435B3FE00623B8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0C7396514483D1E0033B923 /* QuartzCore.framework */,
+				B0FAB5B91448168C00E6FD35 /* AVFoundation.framework */,
+				B0FAB5B61448165C00E6FD35 /* AudioToolbox.framework */,
 				B0C8BEA91435B5A400623B8C /* MessageUI.framework */,
 				B0C8BE871435B3FE00623B8C /* UIKit.framework */,
 				B0C8BE891435B3FE00623B8C /* Foundation.framework */,
@@ -112,6 +157,8 @@
 		B0C8BEA41435B45200623B8C /* peaceios */ = {
 			isa = PBXGroup;
 			children = (
+				B0C7397014483DF80033B923 /* media */,
+				B014F8F714483AC800A3D59E /* commonviewcontrollers */,
 				B0C8BEA51435B45200623B8C /* util */,
 			);
 			path = peaceios;
@@ -124,6 +171,10 @@
 				B0C8BEA71435B45200623B8C /* DeviceDetection.m */,
 				B059FF7B1441A4110074B61F /* NSStringUtil.h */,
 				B059FF7C1441A4110074B61F /* NSStringUtil.m */,
+				B059FFB11441BC6A0074B61F /* NSLogUtil.h */,
+				B059FFB21441BC6A0074B61F /* NSLogUtil.m */,
+				B06D5BF81447DC57007951CA /* ImageUtil.h */,
+				B06D5BF91447DC57007951CA /* ImageUtil.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -181,6 +232,7 @@
 			files = (
 				B0C8BE921435B3FE00623B8C /* InfoPlist.strings in Resources */,
 				B0C8BE9E1435B3FE00623B8C /* ViewController.xib in Resources */,
+				B014F8FC14483AC800A3D59E /* KVPasscodeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +248,10 @@
 				B0C8BE9B1435B3FE00623B8C /* ViewController.m in Sources */,
 				B0C8BEA81435B45200623B8C /* DeviceDetection.m in Sources */,
 				B059FF7D1441A4110074B61F /* NSStringUtil.m in Sources */,
+				B059FFB31441BC6A0074B61F /* NSLogUtil.m in Sources */,
+				B06D5BFA1447DC57007951CA /* ImageUtil.m in Sources */,
+				B014F8FB14483AC800A3D59E /* KVPasscodeViewController.m in Sources */,
+				B0C7397314483DF80033B923 /* AudioDetect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

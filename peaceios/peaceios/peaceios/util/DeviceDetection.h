@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <sys/utsname.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
 enum {
     MODEL_UNKNOWN,
@@ -39,4 +41,8 @@ enum {
 + (BOOL) isIpad;
 
 + (BOOL) isItouch;
+
++ (BOOL) hasMicrophone;
+
++ (BOOL) hasFlash;
 @end
