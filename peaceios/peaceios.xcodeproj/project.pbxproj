@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B014F8FB14483AC800A3D59E /* KVPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */; };
 		B014F8FC14483AC800A3D59E /* KVPasscodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */; };
+		B051BE58144D6A4C00F5C3FB /* NSDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B051BE57144D6A4C00F5C3FB /* NSDateUtil.m */; };
 		B059FF7D1441A4110074B61F /* NSStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FF7C1441A4110074B61F /* NSStringUtil.m */; };
 		B059FFB31441BC6A0074B61F /* NSLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FFB21441BC6A0074B61F /* NSLogUtil.m */; };
 		B06D5BFA1447DC57007951CA /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B06D5BF91447DC57007951CA /* ImageUtil.m */; };
@@ -32,6 +33,8 @@
 		B014F8F814483AC800A3D59E /* KVPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVPasscodeViewController.h; sourceTree = "<group>"; };
 		B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVPasscodeViewController.m; sourceTree = "<group>"; };
 		B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVPasscodeViewController.xib; sourceTree = "<group>"; };
+		B051BE56144D6A4C00F5C3FB /* NSDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateUtil.h; sourceTree = "<group>"; };
+		B051BE57144D6A4C00F5C3FB /* NSDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtil.m; sourceTree = "<group>"; };
 		B059FF7B1441A4110074B61F /* NSStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringUtil.h; sourceTree = "<group>"; };
 		B059FF7C1441A4110074B61F /* NSStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringUtil.m; sourceTree = "<group>"; };
 		B059FFB11441BC6A0074B61F /* NSLogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogUtil.h; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				B059FFB21441BC6A0074B61F /* NSLogUtil.m */,
 				B06D5BF81447DC57007951CA /* ImageUtil.h */,
 				B06D5BF91447DC57007951CA /* ImageUtil.m */,
+				B051BE56144D6A4C00F5C3FB /* NSDateUtil.h */,
+				B051BE57144D6A4C00F5C3FB /* NSDateUtil.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				B06D5BFA1447DC57007951CA /* ImageUtil.m in Sources */,
 				B014F8FB14483AC800A3D59E /* KVPasscodeViewController.m in Sources */,
 				B0C7397314483DF80033B923 /* AudioDetect.m in Sources */,
+				B051BE58144D6A4C00F5C3FB /* NSDateUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
