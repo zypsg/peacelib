@@ -22,6 +22,10 @@ typedef enum _expirationStatus
     ExpirationStatusEnd
 }ExpirationStatus;
 
+//插入耳机的广播通知
+#define kHeadsetPlugInNotification @"kHeadsetPlugInNotification"
+//耳机拔出的广播通知
+#define kHeadsetRemovedNotification @"kHeadsetRemovedNotification"
 
 @protocol  AudioDetectDelegate;
 
@@ -77,12 +81,14 @@ typedef enum _expirationStatus
 
 - (BOOL)isRecording;
 
-- (BOOL)isHeadsetPluggedIn;
+//判断有没有耳机插入
++ (BOOL)isHeadsetPluggedIn;
 
 - (void) insertHeadset;
 
 - (void) removeHeadset;
 
+//判断有没有microphone
 + (BOOL) hasMicrophone;
 
 @end
@@ -95,6 +101,12 @@ typedef enum _expirationStatus
 - (void) notifyPowerValue:(NSNumber*)number;
 
 - (void) notifyStatus:(NSString*) status;
+
+- (void) notifyUpdateDuration:(float) duration;
+
+- (void) notifyEnd;
+
+- (void) noitfyBegin;
 
 - (void) notifyLowPass:(NSString*)lowPass;
 @end

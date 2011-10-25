@@ -7,11 +7,12 @@
 //
 
 #import "AudioDetect.h"
+#import "Constants.h"
 
 #define kShowPeakValue 0   //打印peak属性相关值
 #define kShowdifferValue 0 //打印差值？还是打印原值
 
-#define kExpirationThreshold -20.0f
+#define kExpirationThreshold -15.0f
 
 
 
@@ -144,7 +145,7 @@ static void audioRouteChangeListenerCallback(void                        *inUser
 		}		
 	}
     
-    if([self isHeadsetPluggedIn])
+    if([AudioDetect isHeadsetPluggedIn])
     {
         NSLog(@"有耳机");
     }
@@ -233,7 +234,12 @@ static void audioRouteChangeListenerCallback(void                        *inUser
                 lastRecordTimeInterval = [NSDate timeIntervalSinceReferenceDate];
                 if([_delegate respondsToSelector:@selector(notifyStatus:)])
                 {
-                    [_delegate notifyStatus:@"正在呼气"];
+                    [_delegate notifyStatus:kBreathStatusBreathing];
+                }
+   
+                if([_delegate respondsToSelector:@selector(noitfyBegin)])
+                {
+                    [_delegate noitfyBegin ];
                 }
             }
         }
@@ -247,6 +253,10 @@ static void audioRouteChangeListenerCallback(void                        *inUser
         if(averagePower>kExpirationThreshold)
         {
             invalidCount = 0;
+            if([_delegate respondsToSelector:@selector(notifyUpdateDuration:)])
+            {
+                [_delegate notifyUpdateDuration: [NSDate timeIntervalSinceReferenceDate] - lastRecordTimeInterval  ];
+            }
         }
         else
         {
@@ -261,6 +271,13 @@ static void audioRouteChangeListenerCallback(void                        *inUser
                 {
                     [_delegate notifyStatus:[NSString stringWithFormat:@"%.1f",( [NSDate timeIntervalSinceReferenceDate] - lastRecordTimeInterval )]];
                 }
+                if([_delegate respondsToSelector:@selector(notifyEnd)])
+                {
+                    [_delegate notifyEnd ];
+                }
+                
+                
+             
             }
         }
     }
@@ -275,8 +292,7 @@ static void audioRouteChangeListenerCallback(void                        *inUser
 
 #pragma mark-
 #pragma mark ---Headset relative methods ---
-//设备是否有耳机插入
-- (BOOL)isHeadsetPluggedIn {
++ (BOOL)isHeadsetPluggedIn {
     UInt32 routeSize = sizeof (CFStringRef);
     CFStringRef route;
     
@@ -308,19 +324,9 @@ static void audioRouteChangeListenerCallback(void                        *inUser
     return NO;
 }
 
-//插入耳机
 - (void) insertHeadset
 {
-    NSLog(@"insertHeadset...");
-}
-
-
-//拔出耳机
-- (void) removeHeadset
-{
-    NSLog(@"removeHeadset...");
-    
-    
+    [[NSNotificationCenter defaultCenter] postNotificationName:kHeadsetPlugInNotification object:nil];
 }
 
 + (BOOL) hasMicrophone
@@ -340,7 +346,10 @@ static void audioRouteChangeListenerCallback(void                        *inUser
     return audioSession.inputIsAvailable;
 }
 
-
+- (void) removeHeadset
+{
+    [[NSNotificationCenter defaultCenter] postNotificationName:kHeadsetRemovedNotification object:nil];
+}
 
 
 @end
