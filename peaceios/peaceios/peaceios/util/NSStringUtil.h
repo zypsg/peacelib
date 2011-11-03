@@ -15,4 +15,5 @@
 
 + (NSString*) removeWhieSpace:(NSString*)text;
 
++ (NSArray*) divideString:(NSString*)msg WithFont:(UIFont*)font withWidth:(float) width;
 @end
