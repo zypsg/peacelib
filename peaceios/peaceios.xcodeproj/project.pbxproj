@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		B014F8FB14483AC800A3D59E /* KVPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */; };
 		B014F8FC14483AC800A3D59E /* KVPasscodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */; };
+		B01B3B8A145E44FF0056602D /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B3B87145E44FF0056602D /* NSString+MD5Addition.m */; };
+		B01B3B8B145E44FF0056602D /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B3B89145E44FF0056602D /* UIDevice+IdentifierAddition.m */; };
+		B02FCCF714681D1B0097DC12 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B02FCCF614681D1B0097DC12 /* MBProgressHUD.m */; };
+		B042E7411453DBA1005C6BC4 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B042E7401453DBA1005C6BC4 /* SFHFKeychainUtils.m */; };
 		B051BE58144D6A4C00F5C3FB /* NSDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B051BE57144D6A4C00F5C3FB /* NSDateUtil.m */; };
 		B059FF7D1441A4110074B61F /* NSStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FF7C1441A4110074B61F /* NSStringUtil.m */; };
 		B059FFB31441BC6A0074B61F /* NSLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FFB21441BC6A0074B61F /* NSLogUtil.m */; };
 		B06D5BFA1447DC57007951CA /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B06D5BF91447DC57007951CA /* ImageUtil.m */; };
+		B081816D146109B800538E80 /* PeaceDirectoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B081816C146109B800538E80 /* PeaceDirectoryUtil.m */; };
+		B091190D1460D7090023AB19 /* Qaurtz2D.m in Sources */ = {isa = PBXBuildFile; fileRef = B091190C1460D7090023AB19 /* Qaurtz2D.m */; };
 		B0C7396614483D1E0033B923 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C7396514483D1E0033B923 /* QuartzCore.framework */; };
 		B0C7397314483DF80033B923 /* AudioDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7397214483DF80033B923 /* AudioDetect.m */; };
 		B0C8BE881435B3FE00623B8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE871435B3FE00623B8C /* UIKit.framework */; };
@@ -33,6 +39,14 @@
 		B014F8F814483AC800A3D59E /* KVPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVPasscodeViewController.h; sourceTree = "<group>"; };
 		B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVPasscodeViewController.m; sourceTree = "<group>"; };
 		B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVPasscodeViewController.xib; sourceTree = "<group>"; };
+		B01B3B86145E44FF0056602D /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		B01B3B87145E44FF0056602D /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		B01B3B88145E44FF0056602D /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		B01B3B89145E44FF0056602D /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		B02FCCF514681D1B0097DC12 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = UI/MBProgressHUD.h; sourceTree = "<group>"; };
+		B02FCCF614681D1B0097DC12 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = UI/MBProgressHUD.m; sourceTree = "<group>"; };
+		B042E73F1453DBA1005C6BC4 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		B042E7401453DBA1005C6BC4 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
 		B051BE56144D6A4C00F5C3FB /* NSDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateUtil.h; sourceTree = "<group>"; };
 		B051BE57144D6A4C00F5C3FB /* NSDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtil.m; sourceTree = "<group>"; };
 		B059FF7B1441A4110074B61F /* NSStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringUtil.h; sourceTree = "<group>"; };
@@ -41,6 +55,10 @@
 		B059FFB21441BC6A0074B61F /* NSLogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogUtil.m; sourceTree = "<group>"; };
 		B06D5BF81447DC57007951CA /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
 		B06D5BF91447DC57007951CA /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		B081816B146109B800538E80 /* PeaceDirectoryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeaceDirectoryUtil.h; sourceTree = "<group>"; };
+		B081816C146109B800538E80 /* PeaceDirectoryUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeaceDirectoryUtil.m; sourceTree = "<group>"; };
+		B091190B1460D7090023AB19 /* Qaurtz2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Qaurtz2D.h; path = UI/Qaurtz2D.h; sourceTree = "<group>"; };
+		B091190C1460D7090023AB19 /* Qaurtz2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Qaurtz2D.m; path = UI/Qaurtz2D.m; sourceTree = "<group>"; };
 		B0C7396514483D1E0033B923 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B0C7397114483DF80033B923 /* AudioDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDetect.h; sourceTree = "<group>"; };
 		B0C7397214483DF80033B923 /* AudioDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioDetect.m; sourceTree = "<group>"; };
@@ -90,6 +108,26 @@
 				B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */,
 			);
 			path = commonviewcontrollers;
+			sourceTree = "<group>";
+		};
+		B042E73E1453DBA1005C6BC4 /* security */ = {
+			isa = PBXGroup;
+			children = (
+				B042E73F1453DBA1005C6BC4 /* SFHFKeychainUtils.h */,
+				B042E7401453DBA1005C6BC4 /* SFHFKeychainUtils.m */,
+			);
+			path = security;
+			sourceTree = "<group>";
+		};
+		B09119091460D6E30023AB19 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B091190B1460D7090023AB19 /* Qaurtz2D.h */,
+				B02FCCF514681D1B0097DC12 /* MBProgressHUD.h */,
+				B02FCCF614681D1B0097DC12 /* MBProgressHUD.m */,
+				B091190C1460D7090023AB19 /* Qaurtz2D.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 		B0C7397014483DF80033B923 /* media */ = {
@@ -160,6 +198,8 @@
 		B0C8BEA41435B45200623B8C /* peaceios */ = {
 			isa = PBXGroup;
 			children = (
+				B09119091460D6E30023AB19 /* UI */,
+				B042E73E1453DBA1005C6BC4 /* security */,
 				B0C7397014483DF80033B923 /* media */,
 				B014F8F714483AC800A3D59E /* commonviewcontrollers */,
 				B0C8BEA51435B45200623B8C /* util */,
@@ -170,6 +210,10 @@
 		B0C8BEA51435B45200623B8C /* util */ = {
 			isa = PBXGroup;
 			children = (
+				B01B3B86145E44FF0056602D /* NSString+MD5Addition.h */,
+				B01B3B87145E44FF0056602D /* NSString+MD5Addition.m */,
+				B01B3B88145E44FF0056602D /* UIDevice+IdentifierAddition.h */,
+				B01B3B89145E44FF0056602D /* UIDevice+IdentifierAddition.m */,
 				B0C8BEA61435B45200623B8C /* DeviceDetection.h */,
 				B0C8BEA71435B45200623B8C /* DeviceDetection.m */,
 				B059FF7B1441A4110074B61F /* NSStringUtil.h */,
@@ -180,6 +224,8 @@
 				B06D5BF91447DC57007951CA /* ImageUtil.m */,
 				B051BE56144D6A4C00F5C3FB /* NSDateUtil.h */,
 				B051BE57144D6A4C00F5C3FB /* NSDateUtil.m */,
+				B081816B146109B800538E80 /* PeaceDirectoryUtil.h */,
+				B081816C146109B800538E80 /* PeaceDirectoryUtil.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -258,6 +304,12 @@
 				B014F8FB14483AC800A3D59E /* KVPasscodeViewController.m in Sources */,
 				B0C7397314483DF80033B923 /* AudioDetect.m in Sources */,
 				B051BE58144D6A4C00F5C3FB /* NSDateUtil.m in Sources */,
+				B042E7411453DBA1005C6BC4 /* SFHFKeychainUtils.m in Sources */,
+				B01B3B8A145E44FF0056602D /* NSString+MD5Addition.m in Sources */,
+				B01B3B8B145E44FF0056602D /* UIDevice+IdentifierAddition.m in Sources */,
+				B091190D1460D7090023AB19 /* Qaurtz2D.m in Sources */,
+				B081816D146109B800538E80 /* PeaceDirectoryUtil.m in Sources */,
+				B02FCCF714681D1B0097DC12 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
