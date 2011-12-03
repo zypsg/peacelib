@@ -11,4 +11,8 @@
 @interface NSDateUtil : NSObject
 
 + (NSString*) currentTimeInStr;
+
++ (NSDate *)dateFromString:(NSString *)dateString;
+
++ (NSString *)stringFromDate:(NSDate *)date;
 @end

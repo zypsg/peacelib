@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00AF68B146C1A15005630A3 /* StarReviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00AF688146C1A15005630A3 /* StarReviewView.m */; };
+		B00AF68C146C1A15005630A3 /* xing-hight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B00AF689146C1A15005630A3 /* xing-hight@2x.png */; };
+		B00AF68D146C1A15005630A3 /* xing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B00AF68A146C1A15005630A3 /* xing@2x.png */; };
 		B014F8FB14483AC800A3D59E /* KVPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */; };
 		B014F8FC14483AC800A3D59E /* KVPasscodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */; };
 		B01B3B8A145E44FF0056602D /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B01B3B87145E44FF0056602D /* NSString+MD5Addition.m */; };
@@ -14,6 +17,7 @@
 		B02FCCF714681D1B0097DC12 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B02FCCF614681D1B0097DC12 /* MBProgressHUD.m */; };
 		B042E7411453DBA1005C6BC4 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B042E7401453DBA1005C6BC4 /* SFHFKeychainUtils.m */; };
 		B051BE58144D6A4C00F5C3FB /* NSDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B051BE57144D6A4C00F5C3FB /* NSDateUtil.m */; };
+		B05831EC1489C0CC00E293CB /* UITitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B05831EB1489C0CC00E293CB /* UITitleButton.m */; };
 		B059FF7D1441A4110074B61F /* NSStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FF7C1441A4110074B61F /* NSStringUtil.m */; };
 		B059FFB31441BC6A0074B61F /* NSLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FFB21441BC6A0074B61F /* NSLogUtil.m */; };
 		B06D5BFA1447DC57007951CA /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B06D5BF91447DC57007951CA /* ImageUtil.m */; };
@@ -36,6 +40,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00AF687146C1A15005630A3 /* StarReviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarReviewView.h; sourceTree = "<group>"; };
+		B00AF688146C1A15005630A3 /* StarReviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarReviewView.m; sourceTree = "<group>"; };
+		B00AF689146C1A15005630A3 /* xing-hight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xing-hight@2x.png"; sourceTree = "<group>"; };
+		B00AF68A146C1A15005630A3 /* xing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xing@2x.png"; sourceTree = "<group>"; };
 		B014F8F814483AC800A3D59E /* KVPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVPasscodeViewController.h; sourceTree = "<group>"; };
 		B014F8F914483AC800A3D59E /* KVPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVPasscodeViewController.m; sourceTree = "<group>"; };
 		B014F8FA14483AC800A3D59E /* KVPasscodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVPasscodeViewController.xib; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		B042E7401453DBA1005C6BC4 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
 		B051BE56144D6A4C00F5C3FB /* NSDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateUtil.h; sourceTree = "<group>"; };
 		B051BE57144D6A4C00F5C3FB /* NSDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtil.m; sourceTree = "<group>"; };
+		B05831EA1489C0CC00E293CB /* UITitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITitleButton.h; sourceTree = "<group>"; };
+		B05831EB1489C0CC00E293CB /* UITitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITitleButton.m; sourceTree = "<group>"; };
 		B059FF7B1441A4110074B61F /* NSStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringUtil.h; sourceTree = "<group>"; };
 		B059FF7C1441A4110074B61F /* NSStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringUtil.m; sourceTree = "<group>"; };
 		B059FFB11441BC6A0074B61F /* NSLogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogUtil.h; sourceTree = "<group>"; };
@@ -100,6 +110,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00AF686146C1A15005630A3 /* starreviewview */ = {
+			isa = PBXGroup;
+			children = (
+				B00AF687146C1A15005630A3 /* StarReviewView.h */,
+				B00AF688146C1A15005630A3 /* StarReviewView.m */,
+				B00AF689146C1A15005630A3 /* xing-hight@2x.png */,
+				B00AF68A146C1A15005630A3 /* xing@2x.png */,
+			);
+			name = starreviewview;
+			path = UI/starreviewview;
+			sourceTree = "<group>";
+		};
 		B014F8F714483AC800A3D59E /* commonviewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,9 +141,21 @@
 			path = security;
 			sourceTree = "<group>";
 		};
+		B05831E91489C0CC00E293CB /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				B05831EA1489C0CC00E293CB /* UITitleButton.h */,
+				B05831EB1489C0CC00E293CB /* UITitleButton.m */,
+			);
+			name = controls;
+			path = UI/controls;
+			sourceTree = "<group>";
+		};
 		B09119091460D6E30023AB19 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B05831E91489C0CC00E293CB /* controls */,
+				B00AF686146C1A15005630A3 /* starreviewview */,
 				B091190B1460D7090023AB19 /* Qaurtz2D.h */,
 				B02FCCF514681D1B0097DC12 /* MBProgressHUD.h */,
 				B02FCCF614681D1B0097DC12 /* MBProgressHUD.m */,
@@ -284,6 +318,8 @@
 				B0C8BE921435B3FE00623B8C /* InfoPlist.strings in Resources */,
 				B0C8BE9E1435B3FE00623B8C /* ViewController.xib in Resources */,
 				B014F8FC14483AC800A3D59E /* KVPasscodeViewController.xib in Resources */,
+				B00AF68C146C1A15005630A3 /* xing-hight@2x.png in Resources */,
+				B00AF68D146C1A15005630A3 /* xing@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +346,8 @@
 				B091190D1460D7090023AB19 /* Qaurtz2D.m in Sources */,
 				B081816D146109B800538E80 /* PeaceDirectoryUtil.m in Sources */,
 				B02FCCF714681D1B0097DC12 /* MBProgressHUD.m in Sources */,
+				B00AF68B146C1A15005630A3 /* StarReviewView.m in Sources */,
+				B05831EC1489C0CC00E293CB /* UITitleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
