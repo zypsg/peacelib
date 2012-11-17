@@ -20,9 +20,11 @@
 		B05831EC1489C0CC00E293CB /* UITitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B05831EB1489C0CC00E293CB /* UITitleButton.m */; };
 		B059FF7D1441A4110074B61F /* NSStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FF7C1441A4110074B61F /* NSStringUtil.m */; };
 		B059FFB31441BC6A0074B61F /* NSLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B059FFB21441BC6A0074B61F /* NSLogUtil.m */; };
+		B062DA29149332D300265373 /* UIImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B062DA28149332D300265373 /* UIImageTool.m */; };
 		B06D5BFA1447DC57007951CA /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B06D5BF91447DC57007951CA /* ImageUtil.m */; };
 		B081816D146109B800538E80 /* PeaceDirectoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B081816C146109B800538E80 /* PeaceDirectoryUtil.m */; };
 		B091190D1460D7090023AB19 /* Qaurtz2D.m in Sources */ = {isa = PBXBuildFile; fileRef = B091190C1460D7090023AB19 /* Qaurtz2D.m */; };
+		B094E603149C3C55001FF6EB /* BigAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B094E601149C3C55001FF6EB /* BigAreaButton.m */; };
 		B0C7396614483D1E0033B923 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C7396514483D1E0033B923 /* QuartzCore.framework */; };
 		B0C7397314483DF80033B923 /* AudioDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7397214483DF80033B923 /* AudioDetect.m */; };
 		B0C8BE881435B3FE00623B8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C8BE871435B3FE00623B8C /* UIKit.framework */; };
@@ -63,12 +65,16 @@
 		B059FF7C1441A4110074B61F /* NSStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringUtil.m; sourceTree = "<group>"; };
 		B059FFB11441BC6A0074B61F /* NSLogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogUtil.h; sourceTree = "<group>"; };
 		B059FFB21441BC6A0074B61F /* NSLogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogUtil.m; sourceTree = "<group>"; };
+		B062DA27149332D300265373 /* UIImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageTool.h; path = UI/UIImageTool.h; sourceTree = "<group>"; };
+		B062DA28149332D300265373 /* UIImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImageTool.m; path = UI/UIImageTool.m; sourceTree = "<group>"; };
 		B06D5BF81447DC57007951CA /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
 		B06D5BF91447DC57007951CA /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
 		B081816B146109B800538E80 /* PeaceDirectoryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeaceDirectoryUtil.h; sourceTree = "<group>"; };
 		B081816C146109B800538E80 /* PeaceDirectoryUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeaceDirectoryUtil.m; sourceTree = "<group>"; };
 		B091190B1460D7090023AB19 /* Qaurtz2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Qaurtz2D.h; path = UI/Qaurtz2D.h; sourceTree = "<group>"; };
 		B091190C1460D7090023AB19 /* Qaurtz2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Qaurtz2D.m; path = UI/Qaurtz2D.m; sourceTree = "<group>"; };
+		B094E601149C3C55001FF6EB /* BigAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigAreaButton.m; sourceTree = "<group>"; };
+		B094E602149C3C55001FF6EB /* BigAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigAreaButton.h; sourceTree = "<group>"; };
 		B0C7396514483D1E0033B923 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B0C7397114483DF80033B923 /* AudioDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDetect.h; sourceTree = "<group>"; };
 		B0C7397214483DF80033B923 /* AudioDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioDetect.m; sourceTree = "<group>"; };
@@ -144,6 +150,8 @@
 		B05831E91489C0CC00E293CB /* controls */ = {
 			isa = PBXGroup;
 			children = (
+				B094E601149C3C55001FF6EB /* BigAreaButton.m */,
+				B094E602149C3C55001FF6EB /* BigAreaButton.h */,
 				B05831EA1489C0CC00E293CB /* UITitleButton.h */,
 				B05831EB1489C0CC00E293CB /* UITitleButton.m */,
 			);
@@ -160,6 +168,8 @@
 				B02FCCF514681D1B0097DC12 /* MBProgressHUD.h */,
 				B02FCCF614681D1B0097DC12 /* MBProgressHUD.m */,
 				B091190C1460D7090023AB19 /* Qaurtz2D.m */,
+				B062DA27149332D300265373 /* UIImageTool.h */,
+				B062DA28149332D300265373 /* UIImageTool.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -348,6 +358,8 @@
 				B02FCCF714681D1B0097DC12 /* MBProgressHUD.m in Sources */,
 				B00AF68B146C1A15005630A3 /* StarReviewView.m in Sources */,
 				B05831EC1489C0CC00E293CB /* UITitleButton.m in Sources */,
+				B062DA29149332D300265373 /* UIImageTool.m in Sources */,
+				B094E603149C3C55001FF6EB /* BigAreaButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
